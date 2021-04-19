@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">kcuf3</string>
+    <string name="register">register</string>
+    <string name="login">login</string>
+    <string name="Name">Name</string>
+    <string name="input_name">input_name</string>
+    <string name="email">email</string>
+    <string name="input_email">input_email</string>
+    <string name="input_password">input_password</string>
+    <string name="repassword">repassword</string>
+    <string name="re_enter_password">re_enter_password</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="action_search">action_search</string>
+    <string name="action_settings">action_settings</string>
+    <string name="action_call">action_call</string>
+    <string name="action_sendmail">action_sendmail</string>
+    <string name="exit">exit</string>
+    <string name="username">username</string>
+    <string name="enter_username">enter_username</string>
+    <string name="Password">Password</string>
+    <string name="enter_password">enter_password</string>
+    <string name="password">password</string>
+    <string name="kcuf_for_you">kcuf_for_you</string>
+</resources>

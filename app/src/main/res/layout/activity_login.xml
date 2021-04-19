@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/lgo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/namer"
+        android:text="@string/username"
+        android:layout_marginLeft="60dp"
+        />
+    <EditText
+        android:background="@drawable/reg_edit_text_style"
+        android:layout_marginTop="15dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_username"
+        android:inputType="text"
+        android:id="@+id/name"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="300dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="@string/Password" />
+
+    <EditText
+        android:background="@drawable/reg_edit_text_style"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passworder"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="300dp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/reg_btn_style"
+            android:onClick="xerclick"
+            android:text="@string/exit"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/reg_btn_style"
+            android:onClick="clicker"
+            android:text="@string/login"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</LinearLayout>
